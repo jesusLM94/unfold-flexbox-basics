@@ -1,0 +1,20 @@
+{
+  "name": "flexbox-basics",
+  "version": "1.0.0",
+  "description": "Official Unfold Session: Flexbox Basics repository",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon . & npm run scss",
+    "scss": "sass --watch src/styles/index.scss public/styles/main.css"
+  },
+  "author": "Jesus Lizarraga & Mario Torres",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "sass": "1.43.3"
+  }
+}
